@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300...800;1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  margin: 0;
+  padding-left: 0;
+}
+.container {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Rubik", sans-serif;
+}
+.sidebar {
+  background-color: rgb(207, 200, 200);
+  width: 15vw;
+  height: 100vh;
+}
+.sidebar nav {
+  padding: 30px;
+}
+.sidebar nav li {
+  list-style: none;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+.main {
+  background-color: tomato;
+  width: 90vw;
+}
+.info-section {
+  margin: auto;
+  margin-top: 100px;
+  background-color: white;
+  width: 80vw;
+  height: 70vh;
+}
+.intro {
+  display: flex;
+  justify-content: space-around;
+}
+.my-self {
+  font-family: "Quicksand", sans-serif;
+  margin: auto;
+  margin-left: 30px;
+}
+.hello {
+  font-weight: 500;
+  font-size: 28px;
+}
+.bio1 {
+  font-weight: 450;
+  margin-top: 10px;
+}
+.bio2 {
+  font-weight: 330;
+  margin-top: 5px;
+}
+.buttons button {
+  margin-top: 10px;
+  padding: 5px 14px;
+  border-radius: 17px;
+  font-size: 20px;
+  font-family: "Rubik", sans-serif;
+  background-color: dodgerblue;
+  color: white;
+  font-weight: 300;
+}
+.btn2 {
+  margin-left: 10px;
+}
+.buttons :hover {
+  background-color: white;
+  color: dodgerblue;
+  font-weight: 500;
+  cursor: pointer;
+}
+img {
+  height: 70vh;
+  width: 60vh;
+}
